@@ -9,10 +9,10 @@ $(() => {
     // Add conversions here
     const conversion = [
         // You can reference functions
-        { from: 'm', to: 'cm', convertFunc: fromMeterToCentimeter },
+        { from: 'dragon', to: 'ktulu', convertFunc: fromMeterToCentimeter },
 
         // You can specify inline conversions
-        { from: 'cm', to: 'm', convertFunc: value => value / 100 },
+        { from: 'ktulu', to: 'dragon', convertFunc: value => value / 100 },
     ];
     
     function fromMeterToCentimeter(value) {
